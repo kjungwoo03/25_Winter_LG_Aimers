@@ -1,4 +1,4 @@
-#25_Winter_LG_Aimers
+# 25_Winter_LG_Aimers
 
 이 프로젝트는 모델 추론(inference)을 위한 환경 설정과 데이터 구성을 포함하고 있습니다. 아래의 지침을 따라 환경을 설정하고 데이터를 확인하세요.
 
@@ -6,21 +6,23 @@
 
 ### 1-a. Conda 환경 생성
 먼저, Python 3.8을 사용하는 lg_aimers라는 이름의 Conda 환경을 생성합니다. 터미널 또는 명령 프롬프트에서 아래의 명령어를 차례대로 실행하세요.
-bash
-conda create -n lg_aimers python=3.8.20
 
+```bash
+conda create -n lg_aimers python=3.8.20
+```
 
 ### 1-b. Conda 환경 활성화
 
-bash
+```bash
 conda activate lg_aimers
+```
 
 
 ### 1-c. 필요한 패키지 설치
 
-bash
+``` bash
 pip install -r requirements.txt
-
+```
 
 ## 2. 데이터 구성 및 설명
 
@@ -39,8 +41,9 @@ pip install -r requirements.txt
 
 환경 설정 및 데이터 준비가 완료된 후, 여러분은 학습 및 추론 스크립트를 실행할 수 있습니다. 예를 들어:
 
-bash
+``` bash
 python src/inferece.py
+```
 
 
 이 스크립트는 기본적인 모델 추론을 수행하고 결과를 출력합니다. 필요에 따라 추가적인 스크립트를 작성하여 모델 성능을 향상시킬 수 있습니다.
